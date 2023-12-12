@@ -359,7 +359,7 @@ My journey in web development is fueled by a love for the dynamic nature of the 
       </div>
     </div>
     <div id="contact">
-      <form action="mailto:aravind94977034@gmail.com" method="post">
+      <form action="https://formspree.io/f/xvojeylv" method="post">
         <div class="services-heading text-center">
         <p>CONTACT</p>
         <h2>GET IN TOUCH</h2>
@@ -368,28 +368,24 @@ My journey in web development is fueled by a love for the dynamic nature of the 
         <input
           type="text"
           placeholder="Name"
+          name="name"
           class="input-style"
           style="margin-right: 20px"
         />
-        <input type="email" placeholder="Email" class="input-style" />
+        <input type="email" name="email" placeholder="Email" class="input-style" />
       </div>
       <div class="name-email d-flex">
         <textarea
           class="text-area"
           placeholder="How can we help you?"
-          name=""
+          name="message"
           id=""
           cols="30"
           rows="5"
         ></textarea>
       </div>
       <div class="d-flex justify-content-center align-content-center">
-        <button
-          class="btn btn-dark project-buttons"
-          style="margin-top: 25px; height: 45px"
-        >
-          SEND MESSAGE
-        </button>
+        <input type="submit" value="SEND MESSAGE" class="btn btn-dark project-buttons" style="margin-top: 25px; height: 45px">
       </div>
       </form>
     </div>
@@ -445,6 +441,8 @@ My journey in web development is fueled by a love for the dynamic nature of the 
          }
       }
     }
+
+    
   </script>
   <script
     src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
